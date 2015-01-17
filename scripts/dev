@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+cd binaries/Atom.app/Contents/Resources/
+rm -rf app
+ln -s ../../../../app app

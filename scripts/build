@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+# under app
+cd app
+npm install --save-dev
+./node_modules/.bin/dtsm install
+./node_modules/.bin/gulp build
+
+# back to here
+cd ..
+npm install
+./node_modules/.bin/gulp # Download atom shell
+
+# cp to app
+rm -r binaries/Atom.app/Contents/Resources/app > /dev/null 2>&1
+cp -r app binaries/Atom.app/Contents/Resources/app

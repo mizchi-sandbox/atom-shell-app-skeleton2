@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+rm -rf binaries/Atom.app/Contents/Resources/app > /dev/null 2>&1
+rm -rf app/lib > /dev/null 2>&1
+rm -rf app/typings > /dev/null 2>&1
+rm -rf app/node_modules > /dev/null 2>&1

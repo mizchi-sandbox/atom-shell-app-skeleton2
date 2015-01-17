@@ -1,0 +1,19 @@
+// Variables
+$base-gutter-width: 10px;
+$border-radius-base: 4px;
+
+// Base colors
+$link-color: #0e87cd;
+$base-selected-color: #f6f8f8;
+$base-border-color: #dbe0e0;
+$positive-color: #3EA0E7;
+
+// Gray colors
+$gray-lighter:  lighten($base-border-color, 5%);
+$gray-light:    darken($base-border-color, 10%);
+$gray:          darken($base-border-color, 30%);
+$gray-dark:     darken($base-border-color, 50%);
+
+// Typography
+$text-color: #4a4a4a;
+$italic-font-family: 'Helvetica Neue', Helvetica, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', '游ゴシック', YuGothic, sans-serif;

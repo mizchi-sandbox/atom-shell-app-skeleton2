@@ -1,0 +1,17 @@
+{
+  "databases": [
+    {
+      "namespace": "tw",
+      "type": "memoryDb",
+      "collections": [
+        {
+          "name": "tweets",
+          "params": {
+            "_id?"  : "string",
+            "body"  : "string"
+          }
+        }
+      ]
+    }
+  ]
+}

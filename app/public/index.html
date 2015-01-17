@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kobito</title>
+    <meta charset='utf-8' />
+  </head>
+
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <script>
+    require('coffee-script/register');
+    require('../lib');
+  </script>
+
+  <body>
+    <style>
+      #content-container {
+        z-index: 1;
+        position: relative;
+      }
+
+      #popup-container {
+        z-index: 2;
+        position: relative;
+      }
+
+    </style>
+    <div id='content-container' class="contentContainer"></div>
+  </body>
+</html>
